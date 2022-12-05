@@ -1,3 +1,3 @@
 # Github Actions Demo
 
-Implement CI/CD with Github Actions. 
+Implement CI/CD with Github Actions.
