@@ -1,13 +1,11 @@
-name: Checking 
+name: 'Node Continuous Integration'
 
-on:
-  push:
-    branches: [ master ]
+on: 
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
-jobs: 
-  build: 
+jobs:
+  test_pull_request: 
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
