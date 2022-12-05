@@ -1,8 +1,25 @@
 name: 'Node Continuous Integration'
 
 on: 
-  pull_request:
-    branches: [main]
+  #pull_request:
+    #branches: [main]
+    
+  discussion_comment:
+    types:
+      [created,edited,deleted]
+  pull_request_review_comment:
+    types:
+      [created,edited,deleted]
+  discussion:
+    types:
+      [created,edited,deleted]
+  issue_comment:
+    types:
+      [created,edited,deleted]
+  pull_request_review:
+    types:
+      [submitted,edited,dismissed]
+  workflow_dispatch:
 
 jobs:
   test_pull_request: 
