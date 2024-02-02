@@ -1,3 +1,3 @@
 # Github Actions Demo
 
-Implement CI/CD with Github Actions.
+Sample app used to implement CI/CD with Github Actions.
